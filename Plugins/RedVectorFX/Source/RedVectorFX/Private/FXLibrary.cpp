@@ -34,7 +34,7 @@ void UFXLibrary::Initialize()
 	FXMap.Add(FFXTypes::Explosion_General_S_03, LoadObject<UNiagaraSystem>(nullptr, TEXT("/Game/PyroVFX/Niagara_FX/Explosions/NS_General_S_Ex_03.NS_General_S_Ex_03")));
 
 	// Atomic Bomb
-	FXMap.Add(FFXTypes::Atomic_Bomb, LoadObject<UNiagaraSystem>(nullptr, TEXT("/Game/PyroVFX/Niagara_FX/Atomic_Explosion/NS_Atomic_Bomb_Emitter.NS_Atomic_Bomb_Emitter")));
+	FXMap.Add(FFXTypes::Atomic_Bomb, LoadObject<UNiagaraSystem>(nullptr, TEXT("/Game/PyroVFX/Niagara_FX/Atomic_Explosion/NS_Atomic_Bomb_Emitter_System.NS_Atomic_Bomb_Emitter_System")));
 }
 
 
