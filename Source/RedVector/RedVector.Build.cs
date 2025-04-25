@@ -8,7 +8,7 @@ public class RedVector : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput","RuntimeGizmo","RedVectorFX"});
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
